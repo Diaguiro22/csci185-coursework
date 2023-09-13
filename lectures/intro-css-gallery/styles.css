@@ -1,0 +1,38 @@
+
+header{ background-color:blueviolet;
+    padding: 30px; }
+    * {
+        box-sizing: border-box;
+    }
+    h1{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    body {
+        margin: 0px;
+        font-family: Arial, sans-serif;
+    }
+    
+    p, a, li {
+        line-height: 1.5em;
+        font-size: 1.1em;
+    }
+
+    section{
+        display:inline-block; 
+        margin: 30px;
+        border:solid 0.1px black;
+        background-color: white;
+        
+    
+    }
+    section>p{
+        background-color:white;
+
+    }
+    main{ 
+        background-color:lightgray;
+    }
+    
