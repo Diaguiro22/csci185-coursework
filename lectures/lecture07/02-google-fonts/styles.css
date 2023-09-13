@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css2?family=Courier+Prime&family=Itim&display=swap);
+
+h1{
+    font-family: 'Courier Prime', monospace;
+font-family: 'Itim', cursive;
+}
+
+a{
+    font-family: 'Courier Prime', monospace;
+font-family: 'Itim', cursive;
+}
+
+a:hover{
+    text-decoration: none;
+}
