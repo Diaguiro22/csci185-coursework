@@ -1,0 +1,33 @@
+img{
+    width: 200px;
+}
+nav{
+    border-style: solid;
+    border-color: black;
+    
+}
+*{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    text-transform: uppercase;
+}
+header, footer{
+    background-color: gray;
+}
+section{
+    width: 400px;
+    display: inline-block;
+    border-style: solid;
+}
+#section2{
+    background-color: hotpink;
+
+}
+header{
+    padding: 25px 13vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: 180px; 
+}
