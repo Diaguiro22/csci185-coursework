@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+main{
+    display: grid; 
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: repeat (4, 25vh);
+    row-gap: 10px;
+    column-gap: 10px;
+
+}
+
+main>section {
+    padding: 20px;
+    background-color: white;
+    border: 4px solid tomato;
+    border-radius: 6px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+    height: 22vh; 
+}
+
+@media screen and (max-width: 900px) {
+    body{
+        background-color: pink;
+    }
+    main{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(7,1fr);
+    
+    }
+}
+
+@media screen and (max-width: 700px) {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+
