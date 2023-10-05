@@ -55,3 +55,14 @@ section{
     border:solid 1px #3A1772;
     background-color: white;}
 
+    .image-1{
+        display: flex;
+        background-image: url("https://e0.pxfuel.com/wallpapers/774/739/desktop-wallpaper-town-8-bit-resolution-artist-64-bit.jpg");
+        background-position: center;
+        background-repeat: none; 
+        background-size: cover; 
+        
+        height: 35vh;
+        width: 100vh;
+    }
+
