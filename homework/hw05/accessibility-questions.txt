@@ -3,8 +3,18 @@ Please answer the following accessibility questions:
 
 1. What accessibility corrections did you have to make?
 
+I had to add the alt text for each artist's picture which serves as a description. 
+I then had to specifiy that the html language is in English. 
+Another thing I'd have to fix is the empty links under the artists. 
+
 
 2. Do you think your website is usable if you turn off the CSS? Why or why not?
 
+It would not be useful if CSS were turned off since it is what helps the website the be more accessible. 
+Examples of this is the legibility of the font on the website, accessible links, and the layout of the website which helps 
+keep the artists organized. 
+
 
 3. Is your site is tabbable? In other words, without the use of the mouse, are all the links and buttons accessible using the tab key?
+
+Yes, it is accessible with the tab key. 
