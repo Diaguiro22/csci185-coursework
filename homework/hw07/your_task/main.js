@@ -21,8 +21,8 @@ function playTrack(trackID) {
     allowfullscreen="" 
     allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
     loading="lazy"></iframe>`;
-    document.querySelector("#artist").innerHTML = template; 
-   
+    document.querySelector("#artist").innerHTML = template;
+
 }
 
 async function getTracks(term) {
@@ -48,13 +48,29 @@ async function getTracks(term) {
 }
 
 async function getAlbums(term) {
-    // 1. query spotify for artist: 
-    const url = 'https://www.apitutor.org/spotify/simple/v1/search?type=album&q=${term}';
+    const url = `https://www.apitutor.org/spotify/simple/v1/search?type=album&q=${term}`;
     const response = await fetch(url);
-    const artistData = await response.json();
+    const albumData = await response.json();
+    document.querySelector("#albums").innerHTML = "";
+
+    for (let i = 0; i < 5; i++) {
+        const album = albumData[i];
+        const template = `
+            <section class="album-card" id="${album.id}">
+                <div>
+                    <img src="${album.image_url}">
+                    <h2>${album.name}</h2>
+                <div class="footer">
+                    <a href="${album.spotify_url}" target="_blank">
+                    view on spotify
+                    </a>
+                </div>
+                </div>
+            </section>`;
+        document.querySelector("#albums").innerHTML += template;
+    }
 
 }
-
 async function getArtist(term) {
     const url = `https://www.apitutor.org/spotify/simple/v1/search?type=artist&q=${term}`;
     const response = await fetch(url);
