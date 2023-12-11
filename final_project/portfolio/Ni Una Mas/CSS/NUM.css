@@ -1,0 +1,176 @@
+body{ 
+background-color: black;
+margin-left: 14%;}
+
+
+
+.parent {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(4, 1fr);
+grid-column-gap: 3px;
+grid-row-gap: 3px;
+    max-height: 1270px;
+    max-width: 900px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 6;
+max-height: 300px;
+
+}
+.div2 { grid-area: 3 / 1 / 4 / 2;
+display: inline-block;
+background-image: url('../MGCT3.png');
+max-height: 450px;
+max-width: 300px;
+  }
+
+.div2:hover {
+   
+     background-image: url('../MGCT.png');
+}
+.div2 a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+.div3 { grid-area: 3 / 2 / 4 / 3;
+display: inline-block;
+background-image: url('../Cabanillas3.png');
+max-height: 450px;
+max-width: 300px;
+
+}
+
+.div3:hover {
+   
+     background-image: url('../Cabanillas.png');
+}
+
+.div3 a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.div4 { grid-area: 3 / 3 / 4 / 4; 
+display: inline-block;
+background-image: url('../Chavez3.png');
+    
+    max-height: 450px;
+max-width: 300px;
+min-height: 450px;
+min-width: 300px;
+
+}
+
+.div4:hover {
+   
+     background-image: url('../Chavez.png');
+}
+
+.div4 a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+
+.div5 { grid-area: 4 / 1 / 5 / 2; 
+display: inline-block;
+background-image: url('../Frida3.png');
+    
+    max-height: 450px;
+max-width: 300px;
+min-height: 450px;
+min-width: 300px;
+
+}
+
+.div5:hover {
+   
+     background-image: url('../Frida.png');
+}
+
+.div5 a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+.div6 { grid-area: 4 / 2 / 5 / 3;
+display: inline-block;
+background-image: url('../Marichuy3.png');
+    
+    max-height: 450px;
+max-width: 300px;
+min-height: 450px;
+    min-width: 300px;}
+
+.div6:hover {
+   
+     background-image: url('../Marichuy.png');
+}
+
+.div6 a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+
+.div7 { grid-area: 4 / 3 / 5 / 4;
+display: inline-block;
+background-image: url('../Ingrid3.png');
+    
+    max-height: 450px;
+max-width: 300px;
+min-height: 450px;
+    min-width: 300px;}
+
+.div7:hover {
+   
+     background-image: url('../Ingrid.png');
+}
+
+.div7 a {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+.div8 { grid-area: 2 / 1 / 3 / 4; 
+max-height: 30px;
+   
+    }
+ .div9 { grid-area: 2 / 2 / 3 / 3;
+align-content: center;
+font-family: 'Courier Prime', monospace;
+  
+}   
+h5{
+font-family: 'Courier Prime', monospace; 
+text-align: center;
+}
+
+a{
+color:white;
+font-size: 20px;
+font-family: 'Courier Prime', monospace;
+text-align: left;
+}
+
+
+a:hover{
+    color:mediumpurple;
+    font-size: 20px;
+    font-family: 'Courier Prime', monospace;
+    text-align: center;
+}

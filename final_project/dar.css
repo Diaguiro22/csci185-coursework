@@ -1,0 +1,134 @@
+body {
+  background-color: #01796F;
+  margin: auto 0;
+  display: block;
+  background-image: url("/final_project/pictures/animated.gif");
+  background-repeat: repeat;
+  background-size: auto;
+
+}
+
+img {
+  max-width: 100%;
+  justify-content: center;
+
+}
+
+a {
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: medium;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+
+p {
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h2 {
+  font-family: 'Abril Fatface', serif;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 2fr 6fr 3fr;
+  grid-template-rows: 3fr repeat(6, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+  background-color: #94D2BD;
+  padding: 20px;
+  /*max-height: 100px;*/
+  min-height: 100px;
+  min-width: 100px;
+  /*max-width: 100px;*/
+}
+
+.div2 {
+  grid-area: 1 / 2 / 2 / 4;
+  background-color: #E9D8A6;
+  padding: 80px;
+  /*max-height: 100%;*/
+  min-height: 100%;
+}
+
+.div3 {
+  grid-area: 2 / 2 / 7 / 3;
+  background-color: #EE9B00;
+  margin: 0px;
+  max-height: 700px;
+  min-height: 100px;
+  padding: 10px;
+
+
+}
+
+.div4 {
+  grid-area: 2 / 3 / 7 / 4;
+  background-color: #022b3a;
+  max-height: 700px;
+  min-height: 100px;
+  text-align: center;
+  padding: 60px;
+  line-height: 65px;
+  background-image: url("/final_project/pictures/ani.gif");
+  background-repeat: repeat;
+  background-size: auto;
+}
+
+.div5 {
+  grid-area: 2 / 1 / 3 / 2;
+  background-color: #005F73;
+  min-width: 100px;
+  padding: 10px;
+
+  /* max-width: 100px; */
+}
+
+.div6 {
+  grid-area: 3 / 1 / 4 / 2;
+  background-color: #CA6702;
+  min-width: 100px;
+  padding: 10px;
+  /* max-width: 100px; */
+}
+
+.div7 {
+  grid-area: 4 / 1 / 5 / 2;
+  background-color: #BB3E03;
+  min-width: 100px;
+  padding: 10px;
+  /* max-width: 100px;} */
+}
+
+.div8 {
+  grid-area: 5 / 1 / 6 / 2;
+  background-color: #AE2012;
+  min-width: 100px;
+  padding: 10px;
+  /* max-width: 100px;*/
+}
+
+.div9 {
+  grid-area: 6 / 1 / 7 / 2;
+  background-color: #9B2226;
+  min-width: 100px;
+  padding: 10px;
+  /* max-width: 100px; */
+}
+
+.div10 {
+  grid-area: 7 / 1 / 8 / 4;
+  background-color: #0d5c63;
+}

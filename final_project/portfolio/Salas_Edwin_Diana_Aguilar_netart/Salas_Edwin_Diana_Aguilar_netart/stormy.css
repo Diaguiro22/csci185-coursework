@@ -1,0 +1,117 @@
+
+body {
+  
+  background-image: url("rose.gif");
+  background-repeat: repeat;
+    
+    padding: 6px;
+    margin-top: 5%;
+    margin-bottom:5%;
+    margin-left: 16%;
+   
+}
+img{
+   justify-content: center; 
+}
+p{
+ text-indent: 50px;   
+  text-justify: true; 
+    color:antiquewhite;
+    padding: 10px;
+}
+.parent {
+ 
+ 
+    min-width: 900px;
+    max-width: 900px;
+    max-height: 1600px;
+    min-height: 1600px;
+     display: flex;
+  flex-wrap:nowrap;
+        
+ justify-content: center;  
+font-family: 'Raleway', sans-serif;
+font-size: 16px;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+div{
+   
+}
+.div1 { grid-area: 1 / 1 / 2 / 4;
+
+  background-color:blueviolet;
+   min-height: 200px;
+    max-height: 200px;
+
+}
+.div2 { grid-area: 2 / 2 / 5 / 3;
+background-color: darkred;
+    min-height: 1500px;
+    max-height: 1500px;
+}
+.div3 { grid-area: 2 / 1 / 3 / 2; 
+
+    
+    background-color:#9D4EDD; 
+}
+.div4 { grid-area: 2 / 3 / 3 / 4;
+background-color: #9D4EDD; 
+    
+    
+}
+.div5 { grid-area: 3 / 1 / 4 / 2;
+background-color:#7B2CBF; 
+}
+.div6 {grid-area: 3 / 3 / 4 / 4;
+background-color:#7B2CBF;
+}
+.div7 { grid-area: 4 / 1 / 5 / 2;
+background-color:#5A189A;
+}
+.div8 { grid-area: 4 / 3 / 5 / 4;
+background-color:#5A189A;
+}
+.div9 { grid-area: 5 / 1 / 6 / 4;
+   background-color:#e21b96;
+    
+
+margin:  0;
+
+min-height: 200px;
+    max-height: 200px;
+    padding-top: 20px;
+}
+
+h3 {
+  font-family: 'Amiri Quran', serif;
+    text-align: center;  
+    font-size: 200px;
+     margin-top: 20px;
+    padding: 20px;
+    
+}
+h1 {
+    font-family: 'Playball', cursive;
+    text-align: center;  
+    font-size: 44px;
+     margin-top: 0;
+    color:white;
+}
+a{
+    list-style-type: circle;
+    text-decoration: none;
+    color:antiquewhite;
+    font-size: 16px;
+     text-align: center;
+    padding: 10px;
+     
+}
+a:hover{
+    color:red;
+}
+}
+}

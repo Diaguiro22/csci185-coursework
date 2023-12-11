@@ -1,0 +1,71 @@
+body {
+    background-color: #344055; 
+}
+h1 {font-family: 'VT323', monospace;   
+font-size: 100pt;
+color: #ffff;} 
+p{font-family: 'Strait', sans-serif;
+    color: #fff; 
+    font-size: 25pt;} 
+h2 {font-family: 'VT323', monospace;
+    font-size: 50pt;
+    line-height: 30pt;
+    color: #ffff; }
+    
+h3{color: white; 
+    font-family: 'Strait', sans-serif;
+    padding: 0pt;
+    }  
+
+.italicize{
+    font-style: italic;
+    color: aliceblue;} 
+.big-text{
+    font-size: 36pt; 
+    font-weight: 800pt;
+}
+div{ background-color: #344055;  
+    padding: 40px; 
+    text-align: center;}
+#Box{
+background-color: black; 
+width:500px;
+text-align: center;
+margin: auto; 
+width: 50%;
+padding: 30px 150px;} 
+
+a{ font-family: 'Strait', sans-serif; 
+font-size: 30pt;
+    color: #ffff; 
+    text-decoration: none; 
+    font-size: 40pt;
+    line-height: 40pt; 
+    text-align: center;}
+
+a:hover{ 
+    color:#fff;
+    font-weight: 800;
+    font-style: bold; 
+    text-decoration: underline;} 
+
+.man{ color: white;
+    font-size: 5px;} 
+
+.mask{ color: white; 
+        font-size: 10px;} 
+
+.handsanitizer{ color: white;
+                font-size: 10px;} 
+
+.stealinglady{ color:white;
+                font-size: 10px;} 
+
+.fistbump{ color:white;
+            font-size: 10px;}  
+
+.spraycan{ color: white;
+            font-size: 10px;} 
+
+.graph{ color: white;
+        font-size: 10px;} 
